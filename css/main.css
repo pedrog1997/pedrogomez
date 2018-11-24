@@ -1,1 +1,52 @@
+/* GLOBAL STYLES */
+body {
+  font-family: Helvetica, arial, sans;
+}
+
+/* HEADER STYLES */
+.header {
+  background-color: antiquewhite;
+  position: relative;
+}
+.header-nav {
+  position: absolute;
+  right: 2em;
+  top: 1em;
+}
+.header-nav > li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 1.5em 0 0;
+  text-transform: uppercase;
+}
+.header-nav > li ~ li {
+  border-left: 1px solid black;
+  padding-left: 1em;
+}
+.header-nav a {
+  color: #000;
+  text-decoration: none;
+}
+.header-nav a:hover,
+.header-nav a:active {
+  color: orangered;
+}
+.logo {
+  font-weight: bold;
+  position: absolute;
+  top: 0.75em;
+  left: 2em;
+}
+.logo a {
+  font-size: 1.5em;
+  color: #000;
+  text-decoration: none;
+}
+.logo a:hover, 
+.logo a:active {
+  color: orangered;
+}
+
+/* HERO STYLES */
+
 
