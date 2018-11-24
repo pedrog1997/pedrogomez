@@ -140,5 +140,20 @@ ul {
   margin-bottom: 3em;
   overflow: hidden;
 }
+.extras {
+  border-bottom: 1px dashed black;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+}
+.vision {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+.vision h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em; 
+}
 
 
