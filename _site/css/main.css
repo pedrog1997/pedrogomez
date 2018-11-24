@@ -37,4 +37,30 @@ ul {
   padding-left: 1em;
 }
 
+/* HERO STYLES */
+.hero {
+  background-color: #ffff99;
+  box-sizing: border-box;
+  height: 60vh;
+  padding: 1.5em;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2em;
+  margin: 0.6em;
+}
+.profile-picture {
+  border-radius: 50%;
+  height: 200px;
+}
+
+/* SOCIAL LINKS */
+.social-links li {
+  display: inline-block;
+  margin: 1em;
+}
+.social-links li:hover {
+  background-color: orangered;
+}
+
 
