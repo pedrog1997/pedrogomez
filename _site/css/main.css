@@ -145,6 +145,9 @@ ul {
   padding-bottom: 3em;
   margin-bottom: 3em;
 }
+.extras p  {
+  margin-bottom: 1em;
+}
 .vision {
   padding-bottom: 3em;
   margin-bottom: 3em;
@@ -158,5 +161,33 @@ ul {
 
 /* CV STYLE */
 .cv {
+  text-align: center;
+}
+
+/* ABOUT STYLE */
+.biography {
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 3em auto;
+  width: 50vw;
+}
+.biography h1 {
+  font-size: 2.3em;
+  margin: 0.6em;
+  text-align: center;
+}
+.biography p {
+  margin: 1em 0;
+}
+.biography h2 {
+  font-size: 2em;
+  margin: 0.6em;
+  text-align: center;
+}
+.biography h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+.music li {
   text-align: center;
 }
