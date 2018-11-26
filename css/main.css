@@ -191,3 +191,21 @@ ul {
 .music li {
   text-align: center;
 }
+.biography img {
+  width: 400px;
+}
+.music-note {
+  overflow: hidden;
+  height: 55px;
+  background-image: url("https://raw.githubusercontent.com/pedrog1997/pedrogomez/master/media/note.png");
+  background-repeat: repeat;
+  background-size: 35px, 35px;
+  margin: 3em 0;
+}
+.music-note img {
+  width: 35px;
+  margin-bottom: 3em;
+}
+.image {
+  text-align: center;
+}
