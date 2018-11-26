@@ -165,26 +165,26 @@ ul {
 }
 
 /* ABOUT STYLE */
-.biography {
+.text-content {
   box-sizing: border-box;
   line-height: 1.5;
   margin: 3em auto;
   width: 50vw;
 }
-.biography h1 {
+.text-content h1 {
   font-size: 2.3em;
   margin: 0.6em;
   text-align: center;
 }
-.biography p {
+.text-content p {
   margin: 1em 0;
 }
-.biography h2 {
+.text-content h2 {
   font-size: 2em;
   margin: 0.6em;
   text-align: center;
 }
-.biography h3 {
+.text-content h3 {
   font-size: 1.3em;
   text-align: center;
 }
@@ -209,3 +209,21 @@ ul {
 .image {
   text-align: center;
 }
+
+/* PROJECTS */
+.projects ul {
+  text-align: center;
+}
+.projects li {
+  display: inline-block;
+}
+.projects li ~ li {
+  padding-left: 3em;
+}
+.competencies h3 {
+  margin: 1em;
+}
+.competencies ul > li:last-child {
+  padding-left: 0;
+}
+
